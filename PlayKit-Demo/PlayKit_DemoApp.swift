@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import AVKit
 
 @main
 struct PlayKit_DemoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    try? AVAudioSession.sharedInstance().setCategory(.playback)
+                }
         }
     }
 }

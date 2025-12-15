@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D85461CE2EEFFFD50068B472 /* PlayKit in Frameworks */ = {isa = PBXBuildFile; productRef = D85461CD2EEFFFD50068B472 /* PlayKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D85461A52EEFFED20068B472 /* PlayKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlayKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D85461CE2EEFFFD50068B472 /* PlayKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = "PlayKit-Demo";
 			packageProductDependencies = (
+				D85461CD2EEFFFD50068B472 /* PlayKit */,
 			);
 			productName = "PlayKit-Demo";
 			productReference = D85461A52EEFFED20068B472 /* PlayKit-Demo.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = D854619C2EEFFED20068B472;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D85461CC2EEFFFD50068B472 /* XCRemoteSwiftPackageReference "PlayKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D85461A62EEFFED20068B472 /* Products */;
 			projectDirPath = "";
@@ -351,6 +360,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D85461CC2EEFFFD50068B472 /* XCRemoteSwiftPackageReference "PlayKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TelemTobi/PlayKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D85461CD2EEFFFD50068B472 /* PlayKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D85461CC2EEFFFD50068B472 /* XCRemoteSwiftPackageReference "PlayKit" */;
+			productName = PlayKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D854619D2EEFFED20068B472 /* Project object */;
 }

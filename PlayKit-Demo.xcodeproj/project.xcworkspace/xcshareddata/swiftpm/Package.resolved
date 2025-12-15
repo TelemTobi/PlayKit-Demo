@@ -1,0 +1,15 @@
+{
+  "originHash" : "d369ff6c88b843178c80c2529049b04325bd9246d1446e52757b377f4191f45f",
+  "pins" : [
+    {
+      "identity" : "playkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/TelemTobi/PlayKit.git",
+      "state" : {
+        "revision" : "3d628dc2ffc3d11454eaea62dcfd8cfd307ba29c",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
