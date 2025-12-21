@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/TelemTobi/PlayKit.git",
       "state" : {
-        "revision" : "3d628dc2ffc3d11454eaea62dcfd8cfd307ba29c",
-        "version" : "1.0.0"
+        "revision" : "690238ed40700bcd0c1a29ff1f981387b84f95a5",
+        "version" : "1.0.2"
       }
     }
   ],

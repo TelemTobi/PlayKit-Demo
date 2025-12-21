@@ -61,8 +61,10 @@ struct StoryView: View {
         .onChange(of: playlistController.currentIndex) { _, _ in
             progress = .zero
         }
-        .onReceive(playlistController.reachedEnd) { _ in
-            advanceToNextStory()
+        .onReceive(playlistController.itemReachedEnd) { _ in
+            if playlistController.currentIndex == playlistController.items.count - 1 {
+                advanceToNextStory()
+            }
         }
     }
     
