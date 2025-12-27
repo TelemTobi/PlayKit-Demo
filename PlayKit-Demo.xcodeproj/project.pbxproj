@@ -366,8 +366,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/TelemTobi/PlayKit.git";
 			requirement = {
-				kind = exactVersion;
-				version = 1.0.2;
+				kind = revision;
+				revision = 9c55cf387637abe7cf508d8d3e08c7ef162d89aa;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

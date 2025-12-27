@@ -10,7 +10,7 @@ import PlayKit
 
 struct ReelOverlayView: View {
     let index: Int
-    @ObservedObject var playlistController: PlaylistController
+    let playlistController: PlaylistController
     @State var isScrubbing: Bool = false
     
     @State private var progress: TimeInterval = .zero
