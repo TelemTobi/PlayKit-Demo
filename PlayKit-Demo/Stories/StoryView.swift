@@ -93,7 +93,7 @@ struct StoryView: View {
                 .buttonStyle(.glass)
             }
             .font(.system(.title3))
-            .foregroundStyle(.white)
+            .foregroundStyle(.primary)
             
             SliderView(
                 range: 0...playlistController.durationInSeconds,
